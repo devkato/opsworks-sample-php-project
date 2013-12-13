@@ -8,8 +8,8 @@ return array(
     'type' => 'pdo',
 		'connection'  => array(
 			'dsn'        => 'mysql:host=localhost;dbname=fuel_prod;unix_socket=/var/lib/mysql/mysql.sock',
-			'username'   => 'root',
-			'password'   => 'ygcmv1s9wd',
+			'username'   => 'netprice',
+			'password'   => 'naruhaya',
 		),
     'charset' =>  'utf8',
 	),
