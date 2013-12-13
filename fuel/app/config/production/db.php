@@ -9,7 +9,7 @@ return array(
 		'connection'  => array(
 			'dsn'        => 'mysql:host=localhost;dbname=fuel_prod;unix_socket=/var/lib/mysql/mysql.sock',
 			'username'   => 'root',
-			'password'   => '',
+			'password'   => 'ygcmv1s9wd',
 		),
     'charset' =>  'utf8',
 	),
