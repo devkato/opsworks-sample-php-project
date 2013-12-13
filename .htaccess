@@ -1,1 +1,2 @@
 SetEnv FUEL_ENV production
+php_value date.timezone "Asia/Tokyo"

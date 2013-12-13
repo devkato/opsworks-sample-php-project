@@ -1,2 +1,7 @@
+Chef::Log.info("Running deploy/before_migrate.rb")
 
-`cd /srv/www/opsworks_sample_php_project/current; php ./oil refine migrate`
+require 'fileutils'
+
+FileUtils.chmod_R 0777, "#{release_path}/fuel/app/logs"
+
+`cd #{release_path}; php ./oil refine migrate`
