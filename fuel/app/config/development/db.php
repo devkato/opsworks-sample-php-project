@@ -7,12 +7,10 @@ return array(
 	'default' => array(
     'type' => 'pdo',
 		'connection'  => array(
-			//'dsn'        => 'mysql:host=localhost;dbname=fuel_dev;unix_socket=/var/lib/mysql/mysql.sock',
 			'dsn'        => 'mysql:host=localhost;dbname=fuel_dev;unix_socket=/tmp/mysql.sock',
 			'username'   => 'root',
-			//'password'   => 'ygcmv1s9wd',
 			'password'   => '',
-      'charset'    =>  'utf8',
 		),
+    'charset' =>  'utf8',
 	),
 );
